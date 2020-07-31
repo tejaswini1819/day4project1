@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+<h1>
+    A number between 1 and 100. can you guess
+</h1>
+        <div id="input-container">
+<input type="number" placeholder ="Enter a number" name="number" id="number" min="0" max="100">
+        <div id="submit" class="button"> submit</div>
+        </div>
+        <h2 id="lives">lives remaining=<span id="count">10</span></h2>
+        <div id="message"></div>
+    </div>
+    <script src="./game.js"></script>
+    
+</body>
+</html>
